@@ -1,13 +1,14 @@
 import React from "react";
+import "./App.css";
+import Layout from "./features/layout";
+import Login from "./features/login/Login";
 
 function App() {
   return (
-    <>
-      <h1>mwaidy</h1>
+    <Layout>
+      <Login />
       <br />
-      <h1>mwaidy</h1>
-      <br />
-    </>
+    </Layout>
   );
 }
 
